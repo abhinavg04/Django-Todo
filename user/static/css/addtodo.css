@@ -1,0 +1,27 @@
+.heading{
+    color: #CEBEA4;
+}
+.box1{
+    background-color: #1E1E1E;
+}
+.table{
+    background-color:#0D0D0D;
+    color: #FF5631;
+}
+.addbutton2{
+    margin-inline: 300px ;
+    background-color: #FF5631;
+    padding-inline:40px ;
+}
+.form-control{
+    background-color: #1E1E1E;
+    border: none;
+    border-radius: 5px;
+    color: #CEBEA4;
+}
+.form-control ::placeholder{
+    color: #FF5631;
+}
+.fm1 :focus{
+    color: #FF5631;
+}

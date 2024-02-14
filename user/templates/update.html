@@ -24,13 +24,13 @@
     <body>
         {% block main %}
             <div class="container my-5 w-50">
-                <h1 class="heading text-center my-4">Add Todo</h1>
+                <h1 class="heading text-center my-4">Update Todo</h1>
                 <form action="" method="post" enctype="multipart/form-data">
                     {% csrf_token %}
                     <div class="table">
                         {{form.as_table}}
                     </div>
-                    <button type="submit" class="btn btn-danger addbutton2">Add</button>
+                    <button type="submit" class="btn btn-success addbutton2">Update</button>
                 </form>
             </div>
         {% endblock main %}

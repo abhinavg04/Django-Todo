@@ -33,6 +33,7 @@ body{
     padding: 1rem;
     width: 600px;
     border-radius: 20px;
+    color: #CEBEA4;
 }
 .addbutton{
     background-color: #FF5631;
@@ -40,3 +41,20 @@ body{
     padding: 12px;
     margin-right: 20px;
 }
+/* .tb1{
+    background-color: #1E1E1E;
+    color: #FF5631;
+} */
+.todo{
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #CEBEA4;
+    color: #CEBEA4;
+}
+.title{
+    color: #FF5631;
+    padding: 20px;
+    border-color: #CEBEA4;
+}
+
